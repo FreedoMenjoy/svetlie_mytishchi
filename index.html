@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Главная</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+  </head>
+<header>
+    <div class="text-head">Светлые Мытищи</div>
+</header>
+<body>
+  <div class="upward" onclick="scrollTopTop()"></div>
+  <main>
+    <div class="menu">
+      <ul type="disc">
+        <li>
+          <a href="#command">
+            <div class="block">
+              <p>Наша команда</p>
+            </div>
+          </a>
+        </li>
+        <li>
+        <a href="#project">
+          <div class="block">
+            <p>О проекте</p>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#process">
+          <div class="block">
+            <p>Процесс создания проекта</p>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <h2 id="command">Наша команда:</h2>
+  <div class="container">
+    <div class="cont">
+      <a href="https://vk.com/freedom_vlada" class="name"><p>Ступикова Влада, 16 лет</p></a> 
+      <a href="https://vk.com/krpchvkt" class="name"><p>Корпачёва Екатерина, 16 лет</p></a> 
+    </div>
+    <a href="#win1" class="button button-blue"><img src="me.jpg" alt="Ступикова Влада" class="pupil"></a>
+    <a href="#win2" ><img src="Kate.jpg" alt="Корпачёва Екатерина" class="pupil"></a>
+<a href="#x" class="overlay" id="win1"></a>
+<div class="popup">
+  Я играю на музыкальных инструментах: гитара, укулеле, свирель. В плане музыки я новичок (на инструментах начала играть примерно в 29 ноября 2021 года), так что в основном музыкой будет заниматься Катя. Также я обожаю программировать! Я монтировала все видео, а также вела группу ВК и программировала сайт. Даные навыки очень помогли нам в создании проекта.
+
+    <a class="close"title="Закрыть" href="#close"></a>
+    </div>
+<!-- Модальное окно №2 -->
+    <a href="#x" class="overlay" id="win2"></a>
+    <div class="popup">
+      Я тоже играю на музыкальных инструментах (фортепиано, гитара, блокфлейта и другие). Я училась в музыкальной школе на протяжении 6 лет. Сама по себе я творческий человек и очен люблю рисовать. В проекте, помимо музыки, я занималась созданием дизайна для сайта. Я думаю, что мои навыки помогли нам в создании проекта! 
+    <a class="close" title="Закрыть" href="#close"></a>
+    </div>
+  </div>
+  <h2 id="project">О проекте</h2>
+  <hr>
+  <div class="container">
+    <h3>Цель проекта</h3>
+    <p class="text-in-block">Наша проектная работа заключается в создании музыкальной композиции, так как мы хотим узнать, можно ли передать информацию в формате песни и сделать её максимально удобной для восприятия целевой аудитории. Песня будет включать в себя исторические моменты, достопримечательности, а также места дял досуга. Мы хотим, чтобы эту песню мог послушать каждый желающий и, чтобы эта песня стала привлечением туристов!</p>
+    <hr class="h3">
+    <h3>Наша работа проходила в несколько этапов:</h3>
+    <div class="stage">
+      <ul type="disc">
+        <li>
+            <div class="block">
+              <p>Изначально нашей целью было заснять видеоролик, который впоследствии станет нашей визиткой.</p>
+            </div>
+        </li>
+        <li>
+          <div class="block">
+            <p>После мы отредактировали и соединили все записанные материалы, и разместили готовую визитку на платформе ВК, где она собрала достаточно большое количество лайков.</p>
+          </div>
+        </li>
+      <li>
+        <div class="block">
+          <p>Как только наша визитка с представлением команды была полностью готова, мы преступили к работе над проектом.</p>
+        </div>
+      </li>
+    </ul>
+    </div>
+    <p class="text-in-block">Наша команда состоит из двух талантливых участниц, обладающих уменем играть на музыкальных инструментах. Именно этот критерий стал основным в выборе трека.</p>
+    <hr class="h3">
+    <h3>Готовый проект</h3>
+    <iframe width="700" height="500" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+  </div>
+  <h2 id="process">Процесс создания проекта</h2>
+  <div class="container">
+    <p class="text-in-block"></p>
+  </div>
+    <script>
+      window.addEventListener('scroll', function(){
+        var scroll = document.querySelector('.upward');
+        scroll.classList.toggle("active", window.scrollY>500)
+      })
+        function scrollTopTop(){
+          window.scrollTo({
+            top:0,
+            behavior:'smooth'
+          })
+        }
+    </script>
+    </main>
+</body>
+</html>

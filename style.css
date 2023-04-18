@@ -130,11 +130,11 @@ body {
     }
     
     .outer-div {
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         width: 400px;
         margin-top: 50px;
         display: block;
+        padding: 10px;
         justify-content: center;
     }
     
@@ -601,8 +601,7 @@ h2 {
 }
 
 .outer-div {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;;
     width: 750px;
     margin-top: 50px;
     display: block;
